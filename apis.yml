@@ -1,8 +1,25 @@
 aid: peak
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/peak.png
 name: Peak
-description: 'Peak is a company surfaced as a portfolio company of creandum, softbank-vision-fund and
-  added to the API Evangelist network as a stub for enrichment. Sector: consumer. This profile is a lead
-  awaiting the enrichment pipeline.'
+description: 'Peak is a consumer brain-training mobile application operated by Synaptic
+  Labs (formerly Peak Labs) that offers cognitive exercise games and personalized workouts
+  spanning memory, attention, problem-solving, mental agility, language, and emotion.
+  Its games and Advanced Training Programmes are developed with researchers from institutions
+  including Cambridge, Yale, UCL, and King''s College London. Peak Pro is a subscription
+  that unlocks 40+ games, personalized workouts, performance analytics, and an AI Coach.
+  Peak is a mobile-only consumer product distributed via the App Store and Google Play
+  and does not currently publish a public API or developer platform.'
 url: https://raw.githubusercontent.com/api-evangelist/peak/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -13,10 +30,16 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-20'
 tags:
 - Company
 - Consumer
+- Brain Training
+- Cognitive Training
+- Mobile App
+- Games
+- Health and Fitness
+- Education
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -26,3 +49,18 @@ maintainers:
 common:
 - type: Website
   url: https://www.peak.net/
+- type: Support
+  url: https://peaklabs.zendesk.com/hc/en-us
+- type: Blog
+  url: https://medium.com/@peaklabs
+- type: PrivacyPolicy
+  url: https://www.synapticlabs.uk/privacypolicy
+- type: TermsOfService
+  url: https://www.synapticlabs.uk/termsofservice
+- type: DomainSecurity
+  url: security/peak-domain-security.yml
+x-enrichment:
+  date: '2026-07-20'
+  status: minimal
+  artifacts_added: 1
+  pass: local-v1
